@@ -1,0 +1,61 @@
+/* nav 확장메뉴 */
+
+/*gnb1*/
+
+.top-gnb1-extand-box {visibility: hidden; opacity: 0; transition: all .4; display: block; transition-delay: .1s;}
+.nav-top .gnb1:hover .top-gnb1-extand-box {visibility: visible; opacity: 1; transition: all .4s;}
+.nav-top .nav-gnb1_extand {display: flex; position: absolute;  top: 50px; left: 0; width: 100%; height: 350px; background: #fff; z-index: 20; padding:0 .5% ; gap: 15rem;}
+.nav-top .nav-gnb1_extand .nav-gnb1-ex-L {padding-left: 2.2rem;}
+
+/*gnb3*/
+
+.top-gnb3-extand-box {display: block; visibility: hidden; opacity: 0; transition: all .4; transition-delay: .1s;}
+.nav-top .gnb3:hover .top-gnb3-extand-box {visibility: visible; opacity: 1; transition: all .4s;}
+.nav-top .nav-gnb3_extand {display: flex; position: absolute;  top: 50px; left: 0; width: 100%; height: 350px; background: #fff; z-index: 20; padding:0 .5% ; gap: 15rem;}
+.nav-top .nav-gnb3_extand .nav-gnb3-ex-L {padding-left: 2.2rem;}
+
+/*gnb4*/
+
+.top-gnb4-extand-box {display: block; visibility: hidden; opacity: 0; transition: all .4; transition-delay: .1s;}
+.nav-top .gnb4:hover .top-gnb4-extand-box {visibility: visible; opacity: 1; transition: all .4s;}
+.nav-top .nav-gnb4_extand {display: flex; position: absolute; top: 50px; left: 0; width: 100%; height: 100px; background: #fff; z-index: 20; padding:  0.5%; gap: 15rem;}
+.nav-top .nav-gnb4_extand .search {position: absolute; right: 2rem;}
+.nav-top .nav-gnb4_extand .search #nav-search {border: 0px; border-bottom: 1px solid black; border-radius: 0; height: 30px; font-size: 2.5vh; font-family: 'Gobold',serif; color: black;}
+.nav-top .nav-gnb4_extand .search #nav-search::placeholder {color: black; font-family: 'Gobold',serif; font-size: 1rem;}
+
+/* nav 확장메뉴 텍스트 */
+
+.nav-top .nav-ex h4 {line-height: 3rem;}
+.nav-top .nav-ex li{color: #ccc; font-weight: 100; line-height: 1.1rem;}
+
+/* 아이콘 확장메뉴 */
+.top-gnb4-extand-react-box {display: block; width: 150vw; height: 20vh; position: absolute; top: 8vh; left: -127vw; background-color: #fff; visibility: hidden; opacity: 0;  transition: all .4; transition-delay: .1s;}
+.search:hover .top-gnb4-extand-react-box {visibility: visible; opacity: 1;  transition: all .4s;}
+.top-gnb4-extand-react-box #nav-search {border: 0px; border-bottom: 1px solid black; border-radius: 0; height: 5vh; width: 134vw; position: absolute; left: 5vw; top: 13vh; font-size: 2.5vh; font-family: 'Gobold',serif; color: black;}
+.top-gnb4-extand-react-box #nav-search::placeholder {color: black; font-family: 'Gobold',serif; font-size: 1rem;}
+
+/* bottom nav 확장메뉴 */
+
+
+/*gnb1*/ 
+
+.bottom-gnb1-extand-box {visibility: hidden; opacity: 0; transition: all .5s; display: block; }
+.nav-bottom .gnb1:hover .bottom-gnb1-extand-box {visibility: visible; opacity: 1; transition: all .5s;}
+.nav-bottom .nav-bottom-gnb1_extand {display: flex; position: absolute; top: -50vh; left: 0; width: 100%; height: 50vh; background: #fff; padding:0 .5% ; gap: 15rem;}
+.nav-bottom .nav-bottom-gnb1_extand .nav-gnb1-ex {padding-left: 2.2rem; overflow-y: scroll; scrollbar-width: none; width: 100%; padding: 2rem 0 2rem 2.2rem ; overscroll-behavior: auto contain;}
+.nav-bottom .nav-bottom-gnb1_extand .nav-gnb1-ex::-webkit-scrollbar {display: none;}
+
+
+
+/*gnb3*/
+
+.bottom-gnb3-extand-box {visibility: hidden; opacity: 0; transition: all .5s; display: block;}
+.nav-bottom .gnb3:hover .bottom-gnb3-extand-box {visibility: visible; opacity: 1; transition: all .5s;}
+.nav-bottom .nav-bottom-gnb3_extand {display: flex; position: absolute; top: -50vh; left: 0; width: 100%; height: 50vh; background: #fff; z-index: 20; padding:0 .5% ; gap: 15rem;}
+.nav-bottom .nav-bottom-gnb3_extand .nav-gnb3-ex {padding-left: 2.2rem; overflow-y: scroll; width: 100%; padding: 2rem 0 2rem 2.2rem ; overscroll-behavior: auto contain;}
+.nav-bottom .nav-bottom-gnb3_extand .nav-gnb3-ex::-webkit-scrollbar {display: none;}
+
+/* nav 확장메뉴 텍스트 */
+
+.nav-bottom .nav-ex h4 {line-height: 3rem; color: #000; font-size: 1.7rem; margin: 20px 0;}
+.nav-bottom .nav-ex li{color: #ccc; font-weight: 100; line-height: 3rem; font-size: 1.2rem;}

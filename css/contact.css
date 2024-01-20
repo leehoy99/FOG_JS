@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/* contents */
+
+section {width: 100%; margin-top: 60px;}
+.contents {width: 30vw; margin: 0 auto; padding: 180px 0; display: flex; flex-flow: column; min-width: 350px;}
+.contents .contact-title {font-weight: 100; margin-bottom: 2.2vw; font-size: 17px;}
+.contents .contact-info-1 {font-size: 13px; line-height: 1.8rem;}
+.contents .contact-info-2 {font-size: 13px; line-height: 1.8rem; margin-top: 5vw;}
+.contents > p {font-size: 13px; margin-top: 5vw; margin-bottom: 3.5vw;}
+
+.contact-form {width: 100%; display: flex; flex-flow: column;}
+.contact-form > div {width: 100%; height: fit-content; margin-bottom: 1.5vw;}
+.contact-form input, .contact-form select, .contact-form textarea {width: 100%; border-radius: 0; border: 1px solid #ccc; padding: 15px 10px; transition: border .3s;}
+.contact-form input::placeholder, .contact-form textarea::placeholder {font-size: 12px; font-family: sans-serif; color: #ccc;}
+.contact-form input:focus, .contact-form textarea:focus {border: 1px solid #000; border-radius: 0; outline: 0; transition: border .3s;}
+
+.contact-form select {font-size: 12px; cursor: pointer; outline: 0;}
+.contact-form select:hover {border: 1px solid #000; border-radius: 0; transition: border .3s;}
+
+.contact-form textarea {height: 17vw; margin-bottom: .5vw; font-family: sans-serif;}
+
+.contact-form .contact-send > input {border: 1px solid #000; font-size: 12px; color: rgb(100, 100, 100); cursor: pointer; background-color: #fff; padding: 12px 10px; transition: background-color .5s;}
+.contact-form .contact-send > input:hover {color: #fff; background-color: #000; transition: background-color .5s;}
+
+@media screen and (max-width: 1366px) {
+
+};
+
+@media screen and (max-width: 930px) {
+
+
+};
+
+@media screen and (max-width: 767px) { 
+
+};
+
+

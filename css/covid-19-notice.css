@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/* main */
+
+.main {width: 100%; margin-top: 60px; padding: 4vw 0 0 0; display: flex; flex-flow: row;}
+.main .contents {width: 50vw; margin-left: 25vw;}
+.main .contents .paragraph {margin: 5vw 0; font-size: 13px; line-height: 30px;}
+.main .contents .paragraph p {margin-bottom: 30px;}
+.main .contents .paragraph .title{ margin-bottom: 15px; margin-top: 70px;}
+.main .contents .paragraph .sub-title{ margin-bottom: 25px;}
+.main .contents .paragraph .text-hilight {font-weight: bold;}
+
+.main .side-menu {height: 100%; width: 25vw; margin-top: 6vw;}
+.main .side-menu ul li{font-size: 11px; color: #ccc; text-align: right; padding-right: 5.5vw; margin-bottom: 5px;}
+
+@media screen and (max-width: 1366px) {
+
+};
+
+@media screen and (max-width: 930px) {
+
+
+
+};
+
+@media screen and (max-width: 767px) { 
+
+
+};
+
+
+
+

@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+/* 헤더영역 */
+
+.header {width: 100%; height: 100vh; position: relative; display: flex; align-items: center; justify-content: center;}
+.header .header-img {width: 100%; height: 100vh;}
+.header .header-img img {height: 100%; width: 100%; object-fit: cover;}
+.header .header-text{font-family: 'OPTIMA', serif; font-weight: 400; display: flex; position: absolute; align-items: center; justify-content: center; flex-flow: column wrap; color: white; text-align: center;}
+.header .header-text .header-text1{font-size: 7vw; font-weight: normal; line-height: .9em;}
+.header .header-text .header-text2{font-size: .3em; line-height: 1.2em; font-weight: normal; border-bottom: 1px solid white; margin-top: 26px;}
+
+/* CLOTH SECTION */
+
+.cloth-section {display: flex; width: 100%; flex-flow: row wrap; justify-content: space-between;}
+.cloth-section .cloth-menu {width: calc(100%/3); position: relative; padding: 1.5rem .75rem ;}
+.cloth-section .cloth-menu a {display: flex; align-items: center; justify-content: center;}
+.cloth-section .cloth-menu p {font-family: 'OPTIMA',serif; font-size: 4vw; color: #fff; position: absolute;}
+.cloth-menu img {width: 100%; height:initial; object-fit: cover; }
+
+@media screen and (max-width: 1366px) {
+    /* 갤러리영역 */
+    .gallery .gallery-img-02::before {line-height: 900px; font-size: 4vw;} 
+}
+
+@media screen and (max-width: 963px) {
+
+    /* 헤더 영역 */
+
+    .header {width: 100%; height: 100vh; position: relative; display: flex; align-items: center; justify-content: center;}
+    .header .header-text {top: 25vh;}
+    .header .header-text .header-text1{font-size: 11.5vw;line-height: .9em;}
+    .header .header-text .header-text2{font-size: .9em; line-height: 1.2em; margin-top: 28px;}
+    /* clothsection */
+
+    .cloth-section .cloth-menu {width: calc(100%/2);}
+    .cloth-section .cloth-menu:last-child {width: 100%; padding-top: 0;}
+    .cloth-section .cloth-menu:last-child p {font-size: 8vw;}
+
+}
+
+@media screen and (max-width: 767px) { 
+
+    /* 헤더 영역 */
+
+    .header .header-img {width: auto; height: 100vh; background: url(../Images/11.png) no-repeat center center/cover;}
+    .header .header-img img {opacity: 0;}
+
+}
