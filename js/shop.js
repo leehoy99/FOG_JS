@@ -1,6 +1,6 @@
 
-// import { productInfo } from './productsInfo.js';
-import productInfo from './productInfo.json';
+import { productInfo } from './productsInfo.js';
+// import productInfo from './productInfo.json';
 
 
 const pageItems = 15;
@@ -100,13 +100,13 @@ const products = [];
 //     return categories.filter(category => category !== 'SHOP_ALL')[index];
 // }
 
-const productInfo = [
-    { name: 'dsa', price: 150000, category: 'SUITING' },
-    { name: 'dsada', price: 12000, category: 'SUITING' },
-    { name: 'grewge', price: 100000, category: 'SUITING' },
-    { name: 'dsa d', price: 45968, category: 'SUITING' },
-    { name: 'grwe', price: 21575, category: 'SUITING' }
-];
+// const productInfo = [
+//     { name: 'dsa', price: 150000, category: 'SUITING' },
+//     { name: 'dsada', price: 12000, category: 'SUITING' },
+//     { name: 'grewge', price: 100000, category: 'SUITING' },
+//     { name: 'dsa d', price: 45968, category: 'SUITING' },
+//     { name: 'grwe', price: 21575, category: 'SUITING' }
+// ];
 
 for (let i = 0; i <= productInfo.length - 1; i++) {
     const id = i + 1;
