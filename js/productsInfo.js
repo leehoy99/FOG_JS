@@ -7,5 +7,5 @@ export const productInfo = [
     { name: 'grewge', price: 100000, category: 'SUITING' },
     { name: 'dsa d', price: 45968, category: 'SUITING' },
     { name: 'grwe', price: 21575, category: 'SUITING' }
-];
+]
 
